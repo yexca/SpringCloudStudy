@@ -1,0 +1,9 @@
+server:
+  port: 7995
+spring:
+  application:
+    name: eureka-server # Eureka服务名称
+eureka:
+  client:
+    service-url: # Eukera地址信息
+      defaultZone: http://127.0.0.1:7995/eureka
